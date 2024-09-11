@@ -1,0 +1,79 @@
+abucco|1.9644 * 10**-1|In Pegu, Burma, the abucco was a unit of mass used for gold and silver.
+adarme|1.8 * 10**-3|The adarme is an antiquated Spanish unit of mass, equal to three tomines, equivalent to 1⁄16 ounce.
+adowlie|1.982|An adowlie is an obsolete unit of dry volume and mass formerly used in western India a standard measurement for grain and salt.
+adowlie (heavy)|2.031|An adowlie is an obsolete unit of dry volume and mass formerly used in western India a standard measurement for grain and salt.
+arrátel (13th century)|3.596 * 10**-1|The arrátel was the base unit of weight in the Portuguese customary measurement system.
+arrátel (15th century)|4.025 * 10**-1|The arrátel was the base unit of weight in the Portuguese customary measurement system.
+arrátel (1499 year)|4.59 * 10**-1|The arrátel was the base unit of weight in the Portuguese customary measurement system.
+arroba (Portugal)|14.7|Arroba was a Portuguese and Spanish custom unit of weight, mass or volume.
+arroba (Spain)|11.5|Arroba was a Portuguese and Spanish custom unit of weight, mass or volume.
+atomic mass unit|1.6605 * 10**-27|The unified atomic mass unit is a unit of mass widely used in physics and chemistry.
+bahar|8.08 * 10**-1|Bahar is an obsolete unit of measurement.
+candareen|3.78 * 10**-4|A candareen is a traditional measurement of weight in East Asia.
+carat|2 * 10**-4|The carat (not to be confused with the unit of purity of gold alloys), is a unit of mass equal to 200 mg.
+cash|3.7799 * 10**-6|Cash or li is a traditional Chinese unit of weight.
+cullingey|5.265 * 10**-3|A cullingey is an obsolete unit of mass that was used in the southern region in state of Karnataka in India.
+dharni|2.3325|The dharni is an obsolete unit of mass, formerly used in Nepal, of about 2 1⁄2 seer.
+dutch cask|50.80234|Dutch cask is a UK unit of weight for Butter and Cheese.
+earth mass|5.9722 * 10**24|Earth mass is the unit of mass equal to that of Earth.
+esterling|1.4174 * 10**-3|The esterling is an obsolete Belgian unit of mass.
+flask|34.47302|Flask is a British unit of weight in the avoirdupois system, used to measure mercury.
+frasilah|16|A frasilah is a historical weight unit that was used in the 19th century on the island of Zanzibar and in eastern Africa.
+garce|4198.518|A garce is an obsolete unit of measurement.
+grain|6.4798 * 10**-5|A grain is a unit of measurement of mass.
+gram|0.001|The gram is a metric system unit of mass.
+grivna (lesser grivna)|2.0475 * 10**-1|Grivna was a currency as well as a measure of weight used in Kievan Rus' and other East Slavic countries since the 11th century.
+grivna (greater grivna)|4.0951 * 10**-1|Grivna was a currency as well as a measure of weight used in Kievan Rus' and other East Slavic countries since the 11th century.
+hundredweight (US)|45.35923|The hundredweight, formerly also known as the centum weight or quintal, is an English, imperial, and US customary unit of weight or mass of various values.
+hundredweight (UK)|50.80234|The hundredweight, formerly also known as the centum weight or quintal, is an English, imperial, and US customary unit of weight or mass of various values.
+jupiter mass|1.89813 * 10**27|Jupiter mass, also called Jovian mass, is the unit of mass equal to the total mass of the planet Jupiter.
+kantar|45.02|A kantar is the official Egyptian weight unit for measuring cotton.
+keel (1750 year)|21 540|Keel was a unit used to measure coal in the northeast of England, being the quantity of coal carried by a keelboat on the Tyne and Wear rivers.
+kilogram|1|The kilogram is the base unit of mass in the metric system, formally the International System of Units (SI), having the unit symbol kg.
+kip|453.59237|It is occasionally also considered a unit of mass, equal to 1000 pounds.
+kip (Malaysia)|9.19|The kip is the name of another unit of measure formerly used in Malaysia equal to approximately 9.19 kilograms, which is now obsolete.
+kula (Morocco)|11.165|A kula is an obsolete unit of measurement.
+long ton|1016.047|Long ton, also known as the imperial ton or displacement ton, is the name for the unit called the "ton" in the avoirdupois system of weights or Imperial system of measurements.
+mace|3.78 * 10**-3|A mace is a traditional Chinese measurement of weight in East Asia that was also used as a currency denomination.
+mark (Kölner Mark)|2.34 * 10**-1|The Mark is originally a medieval weight or mass unit, which supplanted the pound weight as a precious metals and coinage weight from the 11th century.
+masha|9.7 * 10**-4|A masha is a traditional Indian unit of mass, now standardized as 0.97 g.
+mene|5.67 * 10**-1|Is an ancient Mesopotamian unit of weight for gold or silver and one of the earliest written words for money.
+microgram|10**-6|In the metric system, a microgram or microgramme is a unit of mass equal to one millionth of a gram.
+micropound|4.536 * 10**-7|The micropound is a small unit of avoirdupois weight and mass in the US and imperial systems of measurement, equal to one-millionth (1/1,000,000) pound.
+mina|5.7 * 10**-1|Is an ancient Near Eastern unit of weight, which was divided into 50 shekels.
+mithqal|4.25 * 10**-3|Is a unit of mass equal to 4.25 grams which is mostly used for measuring precious metals, such as gold, and other commodities, like saffron.
+munjandie|2.59 * 10**-1|A munjandie is an obsolete unit of mass in India approximately equal to 4 grains.
+myriagram|10|The myriagram is a former French and metric unit of mass equal to 10,000 grams (myriad being the Greek word for ten thousand).
+nail|3.175|An archaic usage of the term nail is as a sixteenth of a (long) hundredweight for mass, or 1 clove of 7 pound avoirdupois (3.175 kg).
+oka|1.2829|The oka, okka, or oke was an Ottoman measure of mass, equal to 400 dirhems (Ottoman drams).
+ounce|2.8349 * 10**-2|The ounce is a unit of mass, weight, or volume used in most British derived customary systems of measurement.
+passeree|4.677|A passeree is an obsolete unit of mass used in Bengal.
+pennyweight|1.5551 * 10**-3|A pennyweight is a unit of mass that is equal to 24 grains, 1⁄20 of a troy ounce, 1⁄240 of a troy pound.
+planck mass|2 * 10**-8|In physics, the Planck mass, denoted by mP, is the unit of mass in the system of natural units known as Planck units.
+pluto mass|1.305 * 10**22|Pluto mass is the unit of mass equal to that of Pluto.
+pood (1899)|16.38|Is a unit of mass equal to 40 funt (фунт, Russian pound). 
+pound|4.5359 * 10**-1|The pound or pound-mass is a unit of mass used in the imperial, United States customary and other systems of measurement.
+quintal|100|The quintal or centner is a historical unit of mass in many countries which is usually defined as 100 base units of either pounds or kilograms.
+ratti|1.215 * 10**-1|A ratti is a traditional Indian unit of measurement for mass.
+sarpler|1020|Sarpler, Sarplier or Serplathe was a UK weight for wool.
+scrupulum|1.1812 * 10**-3|Scrupulum, meaning a tiny stone, indicates a weight of 1/24 of an ounce or, by extension, of other measures.
+ship load|430803.889|Ship load is a United Kingdom unit of weight for coal equal to 949,760 pounds.
+short ton|907.18474|The short ton is a unit of mass equal to 2,000 pounds-mass.
+slug|14.5939|The slug is a derived unit of mass in the weight-based system of measures, most notably within the British Imperial measurement system and in the United States customary measures system.
+solar mass|1.98847 * 10**30|The solar mass is a standard unit of mass in astronomy.
+stick|1.13 * 10**-1|In American cooking, a stick of butter is taken to be 4 ounces (about 113 g).
+stone|6.35029|Is an English and imperial unit of weight.
+tank|4.4 * 10**-3|A tank is an obsolete unit of mass in India.
+thai baht|1.5244 * 10**-2|The Baht is the official currency of Thailand (and also a unit of mass).
+tola|1.1663 * 10**-2|Is a traditional Ancient Indian and South Asian unit of mass.
+tonne|1000|The tonne; non-SI unit, symbol: t), commonly referred to as the metric ton in the United States and Canada, is a non-SI metric unit of mass equal to 1,000 kilograms or one megagram (symbol: Mg).
+truss (new hay)|27.21554|A truss is a tight bundle of hay or straw.
+truss (old hay)|25.40117|A truss is a tight bundle of hay or straw.
+truss (straw)|16.32932|A truss is a tight bundle of hay or straw.
+tub|38|Tub was a unit of capacity or of weight used in Britain and elsewhere.
+wey (13th century)|76.5|Was an English unit of weight and dry volume by at least ad 900, when it begins to be mentioned in surviving legal codes.
+wey (wool)|101.7|Was an English unit of weight and dry volume by at least ad 900, when it begins to be mentioned in surviving legal codes.
+wey (Suffolk)|161.5|Was an English unit of weight and dry volume by at least ad 900, when it begins to be mentioned in surviving legal codes.
+wiardunek|4.9 * 10**-2|The Wiardunek was a Mediaeval Central European unit of mass most widely used in Poland and Germany.
+zentner|50|The zentner is an obsolete name for a unit of mass which was used predominantly in Germany, Austria, and Switzerland, although it was also sometimes used in the United Kingdom.
+zolotnik|4.2658 * 10**-3|Was a small Russian unit of weight.

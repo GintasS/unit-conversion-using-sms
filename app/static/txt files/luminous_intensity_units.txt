@@ -1,0 +1,5 @@
+candela|1|The candela is the base unit of luminous intensity in the International System of Units (SI).
+candlepower|0.981|Candlepower is an obsolete unit of measurement for luminous intensity.
+carcel|9.74|The Carcel is a former French unit for measuring the intensity of light.
+hefnerkerze|0.920|The Hefner lamp, or in German Hefnerkerze, is a flame lamp used in photometry that burns amyl acetate.
+violle|20.17|Violle is equal to the light emitted by 1 cm² of platinum at its melting point.

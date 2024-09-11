@@ -1,0 +1,72 @@
+aeon|‭3.1536 * 10**16‬|One million times 365.25 day years.We are using the 365 days definition for one year.
+atom (1010-1012 year)|1.5957 * 10**-1|("indivisible" in Greek), refers to the smallest possible unit of time.
+attosecond|10**-18|12 attoseconds: best timing control of laser pulses.
+biennial|63113851.9|Means (an event) lasting for two years or occurring every two years.
+billion years|3.1536 * 10**16|Is a unit of time on the petasecond scale.
+biweekly|1209600|Means either occurring every two weeks, or occurring twice every week.We are using 2 weeks definition.
+day of braham|‭136235520 * 10**9|
+calendar year(ordinar)|31536000|Begins on the New Year's Day of the given calendar system and ends on the day before the following New Year's Day, and thus consists of a whole number of days.
+calendar year(leap)|31622400|Begins on the New Year's Day of the given calendar system and ends on the day before the following New Year's Day, and thus consists of a whole number of days.
+century|3153600000|Is a period of 100 years.We are using the 365 days definition for a year.
+common year|31536000|Is a calendar year with 365 days.
+day|86400|Is approximately the period of time during which the Earth completes one rotation around its axis.
+lunar day|‭2551452‬|Is the period of time for Earth's Moon to complete one rotation on its axis with respect to the Sun.We are using the average value.
+decade|315360000|Is a period of 10 years.We are using 365 days for year definition.
+eclipse season|3024000|Is one of only two periods during each year when eclipses can occur.
+eight-day week|691200|Some historical calendars had "weeks" of eight days.
+eon|‭3155760000000‬|
+epoch|‭631152000000‬|
+exasecond|10**18|
+femtosecond|10**-15|Pulse time on fastest lasers.
+flick|1.4172 * 10**-9|The unit was launched in January 2018 by Facebook.
+fortnight|1209600|Is a unit of time equal to 14 days.
+friedman unit|‭15552000‬|One Friedman Unit is equal to six months,[2] specifically the "next six months", a period repeatedly declared by New York Times columnist Thomas Friedman to be the most critical of the then-ongoing Iraq War.
+galactic year|7.47403 * 10**15|Is the duration of time required for the Sun to orbit once around the center of the Milky Way Galaxy.We are using the average value.
+gaussian year|31558195.296|It was adopted by Carl Friedrich Gauss as the length of the sidereal year in his studies of the dynamics of the solar system.We are using the 365 days definition for a year. 
+gigasecond|10**9|
+half-month|‭1296000‬|Is a unit of time typically used in astronomy.
+helek|3.33333|Is a unit of time used in the calculation of the Hebrew calendar.
+hour|3600|Is a unit of time conventionally reckoned as ​1⁄24 of a day.
+indiction|‭‭‭‭473040000‬|‬15 year cycle.
+jubilee|‭1576800000‬|
+julian year|‭31557600‬|Is a unit of measurement of time defined as exactly 365.25 days.
+ke|864|Usually calculated as 15 minutes,similar to "quarter" as in "a quarter pastix" (6:15).We are using the 14 minutes and 24 seconds definition.
+kilosecond|10**3|16 minutes and 40 seconds.
+kyr|‭31536000000‬|The abbreviation kyr means "thousand years".
+lunar month|‭2551442.976‬|Is the time between two successive syzygies (new moons or full moons).
+lustrum|‭157680000‬|Was a term for a five-year period in Ancient Rome.
+megannum|31536000 * 10**6|
+megasecond|10**6|About 1 week and 4.6 days.We are using the 1 week and 4.6 days definition.
+microsecond|10**-6|1 µs: Time to execute one machine cycle by an Intel 80186 microprocessor.
+millennium|‭31536000000‬|Is a period of one thousand years.
+millisecond|10**-3|Shortest time unit used on stopwatches.
+minute|60|Is a unit of time or angle.
+moment|90|Was a medieval unit of time.
+month|2592000|Is a unit of time, used with calendars, which is approximately as long as a natural period related to the motion of the Moon; month and Moon are cognates.
+nanosecond|10**-9|Time for molecules to fluoresce.
+nychthemeron|86400|Is a period of 24 consecutive hours.
+olympiad|‭126144000‬|Is a period of four years associated with the Olympic Games of the Ancient Greeks.
+pahar|‭10800‬|Commonly pronounced peher, is a traditional unit of time used in India, Pakistan, Nepal and Bangladesh.
+petasecond|10**15|
+picosecond|10**-12|One trillionth of one second.
+planck time|5.39 * 10**-44|Is the unit of time in the system of natural units known as Planck units. 
+quadrennium|126144000‬|Is a period of four years.
+second|1|Is the base unit of time in the International System of Units (SI).
+sexagenary cycle|‭1892160000‬|Is a cycle of sixty terms, each corresponding to one year, thus a total of sixty years for one cycle.
+shake|10**-8|Is an informal unit of time equal to 10 nanoseconds.
+score|‭630720000‬|Period consisting of two decades.We are using the 365 days definition.
+sol|‭88775.244‬|Is a Mars solar day; that is, a Mars-day.
+solar cycle|‭883008000‬|Is a 28-year cycle of the Julian calendar with respect to the week.
+sothic cycle|‭46074096000‬|Is a period of 1,461 Egyptian civil years of 365 days each.
+svedberg|10**-13|Is a non-metric unit for sedimentation coefficient.
+synodic day|‭86400.0025‬|Is the period it takes for a planet to rotate once in relation to the star it is orbiting (its primary body).
+terasecond|10**12|
+tithi|2551452‬|The time it takes for the longitudinal angle between the Moon and the Sun to increase by 12°
+triennium|‭‭94608000‬|3 years.
+week|‭604800‬|Is a time unit equal to seven days.
+year|31536000|Is the orbital period of the Earth moving in its orbit around the Sun.
+yottasecond|10**24|
+sidereal year|‭‭31558149.76354|
+yoctosecond|10**-24|Is one septillionth of a second.
+zeptosecond|10**-21|Time measurement scale of the NIST strontium atomic clock. Smallest fragment of time currently measurable is 850 zeptoseconds.
+zettasecond|10**21|The remaining time until the end of Stelliferous Era of the universe under the heat death scenario for the ultimate fate of the Universe which is the most commonly-accepted model in the current scientific community.

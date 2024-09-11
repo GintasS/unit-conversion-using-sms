@@ -1,0 +1,115 @@
+agate|1.81 * 10**-3|An agate or ruby (UK) is a unit of typographical measure.
+ald|1.7|Ald is a very old Mongolian measure equal to the length between a man's outstretched arms.
+alen|0.6|Alen or aln is a traditional Scandinavian unit of distance similar to the north German elle: roughly 60 centimeters.
+angstrom|10**-10|The angstrom or ångström is a unit of length equal to one ten-billionth of a metre.
+aṅgula|1.763 * 10**-2|Aṅgula is a measure equal to eight barley-corns, twelve aṅgulas making a Vitasti or span, and twenty-four a Hasta or Cubit.
+arabic mile|1900|The Arab, Arabic, or Arabian mile was a historical Arabic unit of length.
+arpent (Parisian)|71.46466|An arpent is a unit of length and a unit of area.
+arpent (North American)|58.47131|An arpent is a unit of length and a unit of area.
+arşın|6.858 * 10**-1|An arşın is an old Turkish unit of length, about 27 inches long.
+astronomical unit|149597870700|The astronomical unit is a unit of length, roughly the distance from Earth to the Sun.
+bahar|3.25 * 10**-2|Bahar is an obsolete unit of measurement.
+bamboo (India)|12.8|A bamboo is an obsolete unit of length in India and Myanmar.
+bamboo (Myanmar)|3.912|A bamboo is an obsolete unit of length in India and Myanmar.
+barleycorn|8.467 * 10**-3|The barleycorn is a small English unit of length equal to 1⁄3 of an inch.
+biblical mile|1060|Biblical mile is a unit of distance on land, or linear measure, principally used by Jews during the Herodian dynasty to tell short distances between cities and to mark the Sabbath limit, equivalent to about ⅔ of an English statute mile, or what was about four furlongs (stadia).
+bohr radius|5.2917 * 10**-11|The Bohr radius is a physical constant, approximately equal to the most probable distance between the nucleus and the electron in a hydrogen atom in its ground state.
+cable length (International)|185.2|A cable length or length of cable is a nautical unit of measure equal to one tenth of a nautical mile or approximately 100 fathoms.
+cable length (Imperial)|185.32|A cable length or length of cable is a nautical unit of measure equal to one tenth of a nautical mile or approximately 100 fathoms.
+cable length (US navy)|219.5|A cable length or length of cable is a nautical unit of measure equal to one tenth of a nautical mile or approximately 100 fathoms.
+cana|1.57|A cana was a unit of length used in the former Crown of Aragon.
+centimetre|0.01|A centimetre or centimeter is a unit of length in the metric system, equal to one hundredth of a metre, centi being the SI prefix for a factor of 1/100.
+chain|20.1168|The chain is a unit of length equal to 66 feet (22 yards).
+cham am|2.5 * 10**-1|The cham am is a unit of length, used during the 18th–20th century in Cambodia.
+chi (China)|3.3333 * 10**-1|The chi is a traditional Chinese unit of length.
+chi (Hong Kong)|3.7147 * 10**-1|The chi is a traditional Chinese unit of length.
+chi (Taiwan)|3.0303 * 10**-1|The chi is a traditional Chinese unit of length.
+cicero|4.5116 * 10**-3|A cicero is a unit of measure used in typography in Italy, France and other continental European countries, first used by Pannartz and Sweynheim in 1468 for the edition of Cicero's Epistulae ad Familiares.
+cubit|4.866 * 10**-1|The cubit is an ancient unit of length that had several definitions according to each of the various different cultures that used the unit.
+cun|3.3333 * 10**-2|The cun, often glossed as the Chinese inch, is a traditional Chinese unit of length.
+decametre|10|A decametre or dekameter, symbol dam (sometimes unofficially Dm or dkm), is a unit of length in the metric system equal to ten metres; it is very rarely used.
+decimetre|0.1|The decimeter is a unit of length in the metric system, equal to one tenth of a metre (the International System of Units base unit of length), ten centimetres or 3.
+earth radius|6.3781 * 10**6|Earth radius is the distance from the center of Earth to a point on its surface.
+earth's circumference (equator)|40075017|Earth's circumference is the distance around the Earth, either around the equator (40,075.017 km).
+earth's circumference (poles)|40007863|Earth's circumference is the distance around the Earth, either around the equator (40,075.017 km).
+em|4.2175 * 10**-3|An em is a unit in the field of typography, equal to the currently specified point size.
+fall|5.6479|Is a Scottish measurement of length.
+fathom|1.8288|A fathom is a unit of length in the imperial and the U.
+femtometre|10**-15|The femtometre is an SI unit of length equal to 10−15 metres, which means a quadrillionth of one.
+foot|3.048 * 10**-1|A unit of length in the imperial and US customary systems of measurement.
+furlong|201.1680|A furlong is a measure of distance in imperial units and U.
+geographical mile|1855.3|The geographical mile is a unit of length determined by 1 minute of arc along the Earth's equator.
+girah|5.715 * 10**-2|A girah was a unit of length in India and Pakistan approximately equal to 2.
+gunter's chain|20.1|Gunter's chain is a distance measuring device used for surveying.
+hasta|45 * 10**-1|The hasta; is a traditional Indian unit of length, measured from the elbow to the tip of the middle finger.
+hat'h|4.572 * 10**-1|A hat'h is an obsolete unit of length in India equal to 24 angli (approximately 18 inches) or 2 hat'h to a gaz (approximately 1 yard).
+hebdometre|10**7|Hebdo- is an obsolete decimal metric prefix equal to 107.
+hectometre|100|The hectometre or hectometer (American spelling) is an uncommonly used unit of length in the metric system, equal to one hundred metres.
+himetric|10**-5|Himetric is a metric measurement of length similar to twips, used in computing.
+horizontal pitch|5.08 * 10**-3|Horizontal pitch is a unit of length defined by the Eurocard printed circuit board standard used to measure the horizontal width of rack mounted electronic equipment, similar to the rack unit (U) used to measure vertical heights of rack mounted equipment.
+horse length|2.4|A horse length, or simply length, is a unit of measurement for the length of a horse from nose to tail, approximately 8 feet (2.
+hvat|1.89648|Hvat is a historical unit of length that was common in Serbia and Croatia, analogous to fathom.
+inch|2.54 * 10**-2|The inch is a unit of length in the (British) imperial and United States customary systems of measurement.
+irish mile|2.048|Irish measure or plantation measure was a system of units of land measurement used in Ireland from the 16th century plantations until the 19th century, with residual use into the 20th century.
+iso 2848|0.1|International standard ISO 2848 is an ISO standard used by the construction industry.
+jow|6.3 * 10**-3|A jow is an obsolete unit of length in India approximately equal 0.
+kan|2.1336|The kan is a traditional unit of measurement used in Korean architecture still found in use today primarily to describe palaces, Buddhist temples and shrines, and Confucian school buildings, from the Joseon era.
+ken|1.81818|The ken is a traditional Japanese unit of length, equal to six Japanese feet (shaku).
+kilometre|1000|The kilometre, or kilometer (American spelling) is a unit of length in the metric system, equal to one thousand metres (kilo- being the SI prefix for 1000).
+kos|3075|The kos, also spelled Kosh, Krosh, krosha and Koss, is an ancient Indian subcontinental Arthashastra standard unit of distance, since at least 4 BCE.
+lachter|2|The lachter was a common unit of length used in the mining industry in Europe, usually to measure depth, tunnel driving and the size of mining fields; it was also used for contract work.
+li|500|The li, also known as the Chinese mile, is a traditional Chinese unit of distance.
+light-second|299792458|The light-second is a unit of length useful in astronomy, telecommunications and relativistic physics.
+light-year|9.4607 * 10**15|The light-year is a unit of length used to express astronomical distances and measures about 9.
+ligne|2.2558 * 10**-3|The ligne or line or Paris line, is a historic unit of length used in France and elsewhere prior to the adoption of the metric system in the late 18th century, and used in various sciences after that time.
+link|2.01168 * 10**-1|Sometimes called a Gunter’s link, is a unit of length formerly used in many English-speaking countries.
+lunar distance|384402 * 10**3|Lunar distance, also called Earth–Moon distance, Earth–Moon characteristic distance, or distance to the Moon, is a unit of measure in astronomy.
+megalithic yard|8.3 * 10**-1|A megalithic yard is a unit of measurement of about 2.
+metre|1|The metre or meter (American spelling) (from the French unit mètre, from the Greek noun μέτρον, "measure") is the base unit of length in the International System of Units (SI).
+metric inch|2.5 * 10**-2|International standard ISO 2848 is an ISO standard used by the construction industry.
+metric mile|1609.344|A metric mile is a distance which approximates one statute mile (1609.
+micrometre|10**-6|The micrometre or micrometer (American spelling), also commonly known by the previous name micron, is an SI derived unit of length equalling 1×10−6 metre (SI standard prefix "micro-" = 10−6); that is, one millionth of a metre (or one thousandth of a millimetre, 0.
+mile|1609.344|The mile is an English unit of length of linear measure equal to 5,280 feet, or 1,760 yards, and standardised as exactly 1,609.
+millimetre|10**-3|The millimetre or millimeter (American spelling) is a unit of length in the metric system, equal to one thousandth of a metre, which is the SI base unit of length.
+muggeseggele|2.2 * 10**-4|A Muggeseggele or Muckenseckel is a humorous Alemannic German idiom used in Swabia to designate a nonspecific very small length; it refers to a housefly's penis (or literally its scrotum, i.
+myriametre|10000|Is a deprecated unit name; the decimal metric prefix.
+nail|5.715 * 10**-2|A nail, as a unit of cloth measurement, is generally a sixteenth of a yard or 2 1⁄4 inches (5.
+nalva|180|Nalva is a measure of distance equal to 400 Hastas (Cubits).
+nanometre|10**-9|The nanometre or nanometer (American spelling) is a unit of length in the metric system, equal to one billionth (short scale) of a metre (0.
+nautical mile|1852|A nautical mile is a unit of measurement used in both air and marine navigation, and for the definition of territorial waters.
+pace (normal step)|7.5 * 10**-1|A pace is a unit of length consisting either of one normal walking step or of a double step.
+pace (double step)|1.5|A pace is a unit of length consisting either of one normal walking step or of a double step.
+paris inch|2.7069 * 10**-2|The Paris inch or pouce is an archaic unit of length that, among other uses, was common for giving the measurement of lenses.
+paris point|6.6 * 10**-3|The Paris point is a unit of length defined as ⅔ of a centimetre (6.
+parsec|3.0857 * 10**16|The parsec is a unit of length used to measure large distances to astronomical objects outside the Solar System.
+pes|2.96 * 10**-1|A pes is an ancient Roman unit of length that roughly corresponds to a foot.
+pica|4.2333 * 10**-3|The pica is a typographic unit of measure corresponding to approximately 1⁄6 of an inch, or from 1⁄68 to 1⁄73 of a foot.
+picometre|10**-12|The picometre or picometer (American spelling) is a unit of length in the metric system, equal to 1×10−12 m, or one trillionth (1/1000000000000) of a metre, which is the SI base unit of length.
+planck length|1.6162 * 10**-35|In physics, the Planck length, denoted ℓP, is a unit of length that is the distance light travels in one unit of Planck time.
+pluto radius|1186000|Pluto radius is the unit of distance equal to the radius of Pluto.
+point|3.528 * 10**-4|In typography, the point is the smallest unit of measure.
+psilon|40.2336|A Psilon is a unit of length that is equal to 44 manly strides or, more precisely, 0.
+rack unit|4.445 * 10**-2|A rack unit is a unit of measure defined as 1 3⁄4 inches (44.
+rod|5.0292|The rod or perch or pole is a surveyor’s tool and unit of length exactly equal to 5 1⁄2 yards, 16 1⁄2 feet, 1⁄320 of a statute mile or one-fourth of a surveyor's chain (approximately 5.
+rood|6.15|A rood is a historic English and international inch-pound measure of area, as well as an archaic English measure of length.
+scandinavian mile|10000|A Scandinavian mile is a unit of length common in Norway and Sweden, but not Denmark.
+shaftment|1.524 * 10**-1|The shaftment is a unit of length, 6 - 6½ inches or 2 palms, i.
+shaku|3.030 * 10**-1|The shaku or Japanese foot is a Japanese unit of length derived (but varying) from the Chinese chi, originally based upon the distance measured by a human hand from the tip of the thumb to the tip of the forefinger (compare span).
+siriometer|1.4957 * 10**17|The siriometer is an obsolete astronomical unit of length, defined to be equal to one million astronomical units (au).
+skein|109.728|Skein is a unit of length which has been used in the UK.
+smoot|1.702|The smoot is a nonstandard, humorous unit of length created as part of an MIT fraternity prank.
+solar radius|6.957 * 10**8|Solar radius is a unit of distance used to express the size of stars in astronomy relative to the Sun.
+spat|10**12|The spat, from the Latin spatium ("space"), is a unit of solid angle.
+thneap|2.08333 * 10**-2|The Thneap is a unit of length, used during 18th – 20th century in Cambodia.
+thousandth of an inch|2.54 * 10**-5|A thousandth of an inch is a derived unit of length in a system of units using inches.
+tlalcuahuitl (1)|2.5|Tlalcuahuitl or land rod also known as a cuahuitl was an Aztec unit of measuring distance.
+tlalcuahuitl (2)|2.1|Tlalcuahuitl or land rod also known as a cuahuitl was an Aztec unit of measuring distance.
+tlalcuahuitl (3)|2.3|Tlalcuahuitl or land rod also known as a cuahuitl was an Aztec unit of measuring distance.
+twip|1.7636 * 10**-5|A twip is a typographical measurement, defined as 1/20 of a typographical point.
+uncia|2.46 * 10**-2|The uncia was a Roman unit of length, weight, and volume.
+unglie|1.905 * 10**-2|A unglie ("finger") is an obsolete unit of length equal to three-fourths of an inch.
+verst|1066.8|A verst is an obsolete Russian unit of length defined as 500 sazhen.
+wa|2|Is a unit of length, equal to two metres (2 m) or four sok.
+x unit|1.0021 * 10**-13|The x unit is a unit of length approximately equal to 0.
+yard|9.144 * 10**-1|The yard is an English unit of length, in both the British imperial and US customary systems of measurement, that comprises 3 feet or 36 inches.
+yojana|12295.3882|A yojana is a Vedic measure of distance that was used in ancient India.

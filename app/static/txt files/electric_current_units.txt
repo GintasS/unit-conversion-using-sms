@@ -1,0 +1,2 @@
+Abampere|10|The abampere (abA), also called the biot (Bi) after Jean-Baptiste Biot, is the derived electromagnetic unit of electric current in the emu-cgs system of units (electromagnetic cgs).
+Ampere|1|The abampere (abA), also called the biot (Bi) after Jean-Baptiste Biot, is the derived electromagnetic unit of electric current in the emu-cgs system of units (electromagnetic cgs).

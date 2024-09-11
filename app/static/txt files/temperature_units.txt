@@ -1,0 +1,10 @@
+celsius|274.15|The Celsius scale, also known as the centigrade scale, is a temperature scale used by the International System of Units (SI).
+delisle scale|256.03888|The Delisle scale is a temperature scale invented in 1732 by the French astronomer Joseph-Nicolas Delisle (1688–1768).
+fahrenheit|255.92777|The Fahrenheit scale is a temperature scale based on one proposed in 1724 by Dutch–German–Polish physicist Daniel Gabriel Fahrenheit (1686–1736).
+gas mark|408.15|The Gas Mark is a temperature scale used on gas ovens and cookers in the United Kingdom, Ireland and some Commonwealth of Nations countries.
+kelvin|1|The kelvin is the base unit of temperature in the International System of Units, having the unit symbol K.
+newton scale|276.18030|The Newton scale is a temperature scale devised by Isaac Newton in 1701.
+planck temperature|1.417 * 10**32|Planck temperature, denoted by TP, is the unit of temperature in the system of natural units known as Planck units.
+rankine scale|0.55555|The Rankine scale is an absolute scale of thermodynamic temperature named after the Glasgow University engineer and physicist William John Macquorn Rankine, who proposed it in 1859.
+réaumur scale|274.4|The Réaumur scale also known as the "octogesimal division", is a temperature scale for which the freezing and boiling points of water are defined as 0 and 80 degrees respectively.
+rømer scale|‭‭260.76904|The Rømer scale, also known as Romer or Roemer, is a temperature scale named after the Danish astronomer Ole Christensen Rømer, who proposed it in 1701.
