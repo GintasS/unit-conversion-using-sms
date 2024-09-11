@@ -1,0 +1,5 @@
+.vtop {
+    display: inline-block;
+    vertical-align: top;
+    float: none;
+}
