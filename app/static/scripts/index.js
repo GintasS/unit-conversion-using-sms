@@ -5,6 +5,7 @@ const UNIT_CATEGORY = "#categories-menu",
     UNIT_VALUE = "#fromUnitValue",
     CONVERT_BTN = "#buttonConvert",
     RESULT = "#result";
+    SMS_CONVERSION_EXAMPLE = "#sms-conversion-example"
 
 // Holds current category.
 // This is used for reset purposes.
@@ -57,6 +58,8 @@ function InitSubUnitDisplay()
             {
                 // Remove the first one or "Unit FROM".
                 $(UNIT_FROM).slice(1).remove();
+                
+
 
                 // Fill the units.
                 FillSubUnits(data["subUnits"])
@@ -81,6 +84,7 @@ function InitConversionMechanism()
             success: function (data)
             {
                 $(RESULT).text(data["result"]);
+                $(SMS_CONVERSION_EXAMPLE).text("CONVERT " + $(UNIT_CATEGORY).val() + "/" + $(UNIT_FROM).val() + "/" + $(UNIT_TO).val() + "/" + $(UNIT_VALUE).val())
             }
         });
         e.preventDefault();
