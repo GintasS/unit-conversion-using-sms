@@ -1,27 +1,10 @@
-<h1 align="center">
-  <a href="https://github.com/dec0dOS/amazing-github-template">
-    <img src="{{cookiecutter.repo_slug}}/docs/images/logo.svg" alt="Logo" width="125" height="125">
-  </a>
-</h1>
-
 <div align="center">
-  Amazing GitHub Template - Sane defaults for your next project!
-  <br />
-  <br />
-  <a href="https://github.com/dec0dOS/amazing-github-template/issues/new?assignees=&labels=bug&template=01_BUG_REPORT.md&title=bug%3A+">Report a Bug</a>
-  ·
-  <a href="https://github.com/dec0dOS/amazing-github-template/issues/new?assignees=&labels=enhancement&template=02_FEATURE_REQUEST.md&title=feat%3A+">Request a Feature</a>
-  .
-  <a href="https://github.com/dec0dOS/amazing-github-template/discussions">Ask a Question</a>
+  <h1>Unit Conversion Using SMS (text messages)</h1>
 </div>
 
 <div align="center">
-<br />
 
 [![license](https://img.shields.io/github/license/dec0dOS/amazing-github-template.svg?style=flat-square)](LICENSE)
-
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/dec0dOS/amazing-github-template/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
-[![made with hearth by dec0dOS](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-dec0dOS-ff1414.svg?style=flat-square)](https://github.com/dec0dOS)
 
 </div>
 
@@ -33,14 +16,10 @@
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Usage](#usage)
-    - [Cookiecutter template](#cookiecutter-template)
     - [Manual setup](#manual-setup)
-    - [Variables reference](#variables-reference)
-- [Roadmap](#roadmap)
-- [Contributing](#contributing)
-- [Support](#support)
+    - [Environment variables](#environment-variables)
+- [Screenshots](#screenshots)
 - [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 </details>
 
@@ -52,35 +31,14 @@
 <tr>
 <td>
 
-Open Source Software is not about the code in the first place but the communications and community. People love good documentation and obvious workflows. If your software solves some problem, but nobody can figure out how to use it or, for example, how to create an effective bug report, there's something very bad going on. Did you hear about Readme Driven Development? Check out the awesome [artice written by GitHub co-founder Tom Preston-Werner](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html).
+This project makes unit conversion super easy through SMS (text messages). By using modern web technologies and SMS services, you can convert units just by sending a text. The system takes your SMS, does the conversion, and texts you back the result. It's designed to be a handy and accessible tool for converting units without needing internet access or special apps. Perfect for use in remote areas or when you're on the move.
 
-There are many great README or issues templates available on GitHub, however, you have to find them yourself and combine different templates yourself. In addition, if you want extensive docs like CODE_OF_CONDUCT.md, CONTRIBUTING.md, SECURITY.md or even advanced GitHub features like pull request template, additional labels, code scanning, and automatic issues/PRs closing and locking you have to do much work. Your time should be focused on creating something **amazing**. You shouldn't be doing the same tasks over and over like creating your GitHub project template from scratch. Follow the **don’t repeat yourself** principle. So just use the template **and go create something amazing**!
+You can also use the website for the unit conversion. The purpose of this project was to demonstrate how can you over-engineer solutions, imagine converting kilograms to grams using a text message!
 
-The key features of **Amazing GitHub Template**:
+Project uses Infobip API for SMS sending. I was using this [documentation](https://www.infobip.com/docs/api#programmable-communications/sms/get-received-sms).
 
-- Configurable README.md template
-- Configurable LICENSE template
-- Configurable CODE_OF_CONDUCT.md template
-- Configurable CONTRIBUTING.md template
-- Configurable SECURITY.md template
-- Configurable issues template
-- Pull request template
-- CODEOWNERS template
-- Additional labels template
-- Automatic locking for closed issues and PRs workflow
-- Automatic cleaning for stale issues and PRs workflow
-- Automatic label verification for PRs workflow
-- Automatic security code scanning workflow via CodeQL
-
-<details open>
-<summary>Additional info</summary>
-<br>
-
-This project is the result of huge research. I'm a long-time GitHub user so I've seen more than [7.3k](https://github.com/dec0dOS?tab=stars) READMEs so far. I've started writing docs for my open source projects (that are currently in their early stages so they exist in the private space for now). After I've analyzed many popular GitHub READMEs and other GitHub-related docs and features I've tried to create a general-propose template that may be useful for any project.
-
-Of course, no template will serve all the projects since your needs may be different. So the [Cookiecutter](https://github.com/cookiecutter/cookiecutter) comes to the rescue. It allows [Jinja template language](https://jinja.palletsprojects.com) to be used for complex cases. Just enter up the project preferences you want in the Cookiecutter interactive menu and that's it. There is a manual setup that could be useful for your existing projects (or if you don't want to use Cookiecutter for some reason). **This README.md file is not a template itself**, you should [download the precompiled template](https://github.com/dec0dOS/amazing-github-template/releases/download/latest/template.zip) and replace the predefined values, then remove unused sections.
-
-</details>
+The way it works is that I'm pulling any incoming SMS messages from the Infobip's API by using a Python scheduler to scan an URL.
+If we found any new messages, let parse that message and inform the User!
 
 </td>
 </tr>
@@ -88,141 +46,71 @@ Of course, no template will serve all the projects since your needs may be diffe
 
 ### Built With
 
-- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
-- [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
-- [GitHub Actions](https://github.com/features/actions)
-- [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli)
+The project uses these technologies:
+- **Flask**: A lightweight WSGI web application framework in Python, used to build the web interface for unit conversion.
+- **jQuery**: A fast, small, and feature-rich JavaScript library, used for DOM manipulation and handling AJAX requests.
+- **Bootstrap**: A popular front-end framework for developing responsive and mobile-first websites.
+- **Infobip API**: A communication platform as a service (CPaaS) that provides SMS messaging capabilities.
+- **Python**: The primary programming language used for backend development.
+- **HTML/CSS**: Standard technologies for creating and styling the web interface.
+- **JavaScript**: Used for client-side scripting to enhance user interaction on the web interface.
+- **Logging**: Python's built-in logging module is used to track the application's activities and debug issues.
 
 ## Getting Started
 
 ### Prerequisites
 
-The recommended method to install **Amazing GitHub Template** is by using [Cookiecutter](https://github.com/cookiecutter/cookiecutter). For manual install please refer to [manual setup section](#manual-setup).
-
-The easiest way to install Cookiecutter is by running:
-
-```sh
-pip install --user cookiecutter
-```
-
-For other install options, please refer to [Cookiecutter installation manual](https://cookiecutter.readthedocs.io/en/latest/installation.html).
+It is recommended to use VS Code or Cursor for this project.
+Python version that was used to develop the project: **3.9.13**
 
 ### Usage
-
-#### Cookiecutter template
-
-After installing Cookiecutter, all you need to do is to run the following command:
-
-```sh
-cookiecutter gh:dec0dOS/amazing-github-template
-```
-
-You will get the interactive prompt where you'll need to specify relevant options for your project (or the default value will be used).
-
-![Preview](docs/images/preview.svg)
 
 #### Manual setup
 
 Please follow these steps for manual setup:
+0. Set-up the Discord bot on the Discord Developer Portal and add it to your server.
+1. Download this GitHub repository.
+2. Create a virtual environment.
 
-1. [Download the precompiled template](https://github.com/dec0dOS/amazing-github-template/releases/download/latest/template.zip)
-2. Replace all the [variables](#variables-reference) to your desired values
-3. Initialize the repo in the precompiled template folder
+```
+python3 -m venv <myenvname>
+```
 
-    `or`
+3. Activate virtual environment.
 
-    Move the necessary files from precompiled template folder to your existing project directory. Don't forget .github directory that may be hidden by default in your operating system
+```
+cd venv
+Scripts\Activate.ps1
+```
+Or different Activate script, if you are not working from Visual Code.
 
-#### Variables reference
+4. Install packages from requirements.txt
 
-Please note that entered values are case-sensitive.
-Default values are provided as an example to help you figure out what should be entered.
+```
+pip install -r /path/to/requirements.txt
+```
 
-> On manual setup, you need to replace only values written in **uppercase**.
+5. Replace environment variables with your PostgreSQL/Discord API credentials in the .env file.<br>
+   **Replace ```SMS_SERVICE_INFOBIP_API_KEY``` to your INFOBIP API KEY**.
+   **Also change  ```SMS_SERVICE_FROM_NUMBER``` to the phone number you received from Infobip.**
 
-| Name                       | Default value      | Description                                                                 |
-| -------------------------- | ------------------ | --------------------------------------------------------------------------- |
-| PROJECT_NAME               | My Amazing Project | Your project name                                                           |
-| REPO_SLUG                  | my-amazing-project | Repo slug must match the GitHub repo URL slug part                          |
-| GITHUB_USERNAME            | dec0dOS            | Your GitHub username **without @**                                          |
-| FULL_NAME                  | Alexey Potapov     | Your full name                                                              |
-| OPEN_SOURCE_LICENSE        | MIT license        | Full OSS license name                                                       |
-| modern_header              | y                  | Use HTML to prettify your header                                            |
-| table_in_about             | n                  | Use table to wrap around About section                                      |
-| include_logo               | y                  | Include Logo section. Could only be used when `modern_header == y`          |
-| include_badges             | y                  | Include section for badges                                                  |
-| include_toc                | y                  | Include Table of Contents                                                   |
-| include_screenshots        | y                  | Include Screenshots section                                                 |
-| include_project_assistance | y                  | Include Project assistance section                                          |
-| include_authors            | y                  | Include Authors & contributors section                                      |
-| include_security           | y                  | Include Security section and SECURITY.md file                               |
-| include_acknowledgements   | y                  | Include Acknowledgements section                                            |
-| include_code_of_conduct    | y                  | Include CODE_OF_CONDUCT.md file                                             |
-| include_workflows          | y                  | Include .github/workflows directory                                         |
-| use_codeql                 | y                  | Use [CodeQL](https://securitylab.github.com/tools/codeql/)                  |
-| use_conventional_commits   | y                  | Add [Conventional Commits](https://www.conventionalcommits.org) notice      |
-| use_github_discussions     | n                  | Use [GitHub Discussions](https://docs.github.com/en/discussions/quickstart) |
+6. Run the app.
 
-> NOTICE: to use GitHub Discussions, you have to [enable it first](https://docs.github.com/en/discussions/quickstart).
 
-## Roadmap
+#### Environment variables
 
-See the [open issues](https://github.com/dec0dOS/amazing-github-template/issues) for a list of proposed features (and known issues).
+in the .env file, replace these environment variables with your PostgreSQL database credentials.
 
-- [Top Feature Requests](https://github.com/dec0dOS/amazing-github-template/issues?q=label%3Aenhancement+is%3Aopen+sort%3Areactions-%2B1-desc) (Add your votes using the 👍 reaction)
-- [Top Bugs](https://github.com/dec0dOS/amazing-github-template/issues?q=is%3Aissue+is%3Aopen+label%3Abug+sort%3Areactions-%2B1-desc) (Add your votes using the 👍 reaction)
-- [Newest Bugs](https://github.com/dec0dOS/amazing-github-template/issues?q=is%3Aopen+is%3Aissue+label%3Abug)
+| Name                       |  Description                                                                 |
+| -------------------------- | ---------------------------------------------------------------------------  |
+| SMS_SERVICE_INFOBIP_API_KEY      | Infobip API KEY                                                         |
+| SMS_SERVICE_FROM_NUMBER   | Infobip Phone number                         |
 
-## Contributing
 
-First off, thanks for taking the time to contribute! Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make will benefit everybody else and are **greatly appreciated**.
-
-Please try to create bug reports that are:
-
-- _Reproducible._ Include steps to reproduce the problem.
-- _Specific._ Include as much detail as possible: which version, what environment, etc.
-- _Unique._ Do not duplicate existing opened issues.
-- _Scoped to a Single Bug._ One bug per report.
-
-Please adhere to this project's [code of conduct](docs/CODE_OF_CONDUCT.md).
-
-You could use [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) to check for common markdown style inconsistency.
-
-## Support
-
-Reach out to the maintainer at one of the following places:
-
-- [GitHub discussions](https://github.com/dec0dOS/amazing-github-template/discussions)
-- The email which is located [in GitHub profile](https://github.com/dec0dOS)
+## Screenshots
 
 ## License
 
 This project is licensed under the **MIT license**. Feel free to edit and distribute this template as you like.
 
 See [LICENSE](LICENSE) for more information.
-
-## Acknowledgements
-
-Thanks for these awesome resources that were used during the development of the **Amazing GitHub template**:
-
-- <https://github.com/cookiecutter/cookiecutter>
-- <https://github.github.com/gfm/>
-- <https://tom.preston-werner.com/2010/08/23/readme-driven-development.html>
-- <https://changelog.com/posts/top-ten-reasons-why-i-wont-use-your-open-source-project>
-- <https://thoughtbot.com/blog/how-to-write-a-great-readme>
-- <https://www.makeareadme.com>
-- <https://github.com/noffle/art-of-readme>
-- <https://github.com/noffle/common-readme>
-- <https://github.com/RichardLitt/standard-readme>
-- <https://github.com/matiassingers/awesome-readme>
-- <https://github.com/LappleApple/feedmereadmes>
-- <https://github.com/othneildrew/Best-README-Template>
-- <https://github.com/mhucka/readmine>
-- <https://github.com/badges/shields>
-- <https://github.com/cjolowicz/cookiecutter-hypermodern-python>
-- <https://github.com/stevemao/github-issue-templates>
-- <https://github.com/devspace/awesome-github-templates>
-- <https://github.com/cezaraugusto/github-template-guidelines>
-- <https://github.com/frenck?tab=repositories>
-- <https://docs.github.com/en/discussions/quickstart>
-- <https://docs.github.com/en/actions>
