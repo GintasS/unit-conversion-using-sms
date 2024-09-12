@@ -1,5 +1,7 @@
+import logging
+
 def initialize_main_unit_conversion_file(all_units, main_file):
-  print("------------------------")
+  logging.info("[Unit Conversion Files] Starting to read from the MAIN UNIT FILE...")
   with open(main_file, "r") as file:
     file_data = file.readlines()[2:]
 
@@ -8,9 +10,10 @@ def initialize_main_unit_conversion_file(all_units, main_file):
     key = unit[2].strip()
     all_units[key] = {"name": unit[0], "symbol": unit[1], "units": []}
 
-  print("(Main Units): Main File is COMPLETE!")
-  
+  logging.info("[Unit Conversion Files] Main File is COMPLETE!")      
+
 def initialize_sub_unit_conversion_files(all_units, sub_files):
+  logging.info("[Unit Conversion Files] Starting to read from the SUB UNIT files...")
   sub_files_length = len(sub_files)
   sub_file_index = 0
 
@@ -29,7 +32,9 @@ def initialize_sub_unit_conversion_files(all_units, sub_files):
     print("(Sub Units):", sub_files[sub_file_index], " is COMPLETE!")
     sub_file_index += 1
     print("------------------------\n")
-
+ 
+  logging.info("[Unit Conversion Files] All SUB UNIT files are COMPLETE!")
+  
 def split_single_unit_to_dict(line):
   single_unit_list = line.split("|")
   single_unit_dict = {"unit": single_unit_list[0], "value": single_unit_list[1]}
@@ -48,8 +53,11 @@ def read_all_lines_from_file(file):
 
 # Initializes currencies.
 def initialize_all_currencies(all_units, currency_file):
+  logging.info("[Unit Conversion Files] Starting to read from the CURRENCY file...")
   file_data = read_all_lines_from_file(currency_file)
 
   for item in file_data:
     single_currency = {"unit": item, "value": 0, "desc": "N/A"}
     all_units["currencies"]["units"].append(single_currency)
+
+  logging.info("[Unit Conversion Files] Currency file is COMPLETE!")
