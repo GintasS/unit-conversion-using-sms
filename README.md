@@ -117,6 +117,9 @@ in the .env file, replace these environment variables with your PostgreSQL datab
 <img src="docs/images/capture3.jpg" alt="Screenshot 3" height="500"/><br>
 *This screenshot demonstrates how SMS conversion work.*
 
+[![Setup and Run Tutorial](https://img.youtube.com/vi/nOnsj9aEL2U/sddefault.jpg)](https://youtu.be/nOnsj9aEL2U)<br>
+*Video Demo of SMS conversion.*
+
 ## License
 
 This project is licensed under the **MIT license**. Feel free to edit and distribute this template as you like.
