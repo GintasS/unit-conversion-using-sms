@@ -1,71 +1,104 @@
-from flask import render_template, request
-from app import flask_app
+import http.client
+import json
+import logging
+from collections import namedtuple
 
-@flask_app.route("/sms", methods=['GET', 'POST'])
-def incoming_sms():
+from services.convert_unit_service import convert_unit
+from configuration.constants import *
+from utilities.helper import is_incoming_sms_message_valid
+
+def get_incoming_sms_messages():
+  try:
+    logging.info("[SMS Service] Fetching incoming SMS messages...")
+
+    conn = http.client.HTTPSConnection(SmsService.SMS_SERVICE_INFOBIP_BASE_URL)
+    payload = ''
+    headers = {
+        'Authorization': SmsService.SMS_SERVICE_INFOBIP_API_KEY,
+        'Accept': 'application/json'
+    }
+    conn.request("GET", SmsService.SMS_GET_INCOMING_SMS_MESSAGES_API_ENDPOINT, payload, headers)
+    res = conn.getresponse()
+    data = res.read()
+    data_decoded = data.decode("utf-8")
+
+    logging.info(f"[SMS Service] Received response from GET 2mkvmw.api.infobip.com/sms/1/inbox/reports: {data_decoded}")
+    return data_decoded
+  except Exception as ex:
+    logging.error(f"[SMS Service] Exception occurred while FETCHING incoming SMS messages: {ex}")
   
-  # Get the message the user sent our Twilio number.
-  body = request.values.get('Body', None)
+def get_detailed_contents_from_incoming_sms(data):
+  json_results = json.loads(data)
+  
+  if "results" not in json_results:
+    return []
+  
+  messages = []
+  Message = namedtuple('Message', ['from_number', 'clean_text'])
+  
+  json_results = json_results["results"]
+  for message in json_results:
+    from_number = message['from']
+    clean_text = message['cleanText']
+    messages.append(Message(from_number, clean_text))
+  return messages
 
-  # Start our TwiML response.
-  resp = MessagingResponse()
+def send_sms_message(to_phone_number, message):
+  try:
+    logging.info(f"[SMS Service] Sending SMS to {to_phone_number} with message: {message}")
+    conn = http.client.HTTPSConnection(SmsService.SMS_SERVICE_INFOBIP_BASE_URL)
 
-  # Get all '/' to determine category, unit A, unit B, amount.
-  # Structure: category/unitFrom/unitTo/amount
-  needles = [m.start() for m in re.finditer('/', body)]
+    headers = {
+      'Authorization': SmsService.SMS_SERVICE_INFOBIP_API_KEY,
+      'Content-Type': 'application/json',
+      'Accept': 'application/json'
+    }
 
-  # If there are more/less "/", return SMS message with the helper
+    payload = json.dumps({
+      "messages": [
+        {
+            "destinations": [{"to": to_phone_number}],
+            "from": SmsService.SMS_SERVICE_FROM_NUMBER,
+            "text": message
+        }
+      ]
+    })
 
-  # message.
-  if len(needles) != 3:
-      resp.message("Bad format, use: category/unitFrom/unitTo/amount")
-      return str(resp)
+    conn.request("POST", SmsService.SMS_POST_SEND_SMS_MESSAGE_API_ENDPOINT, payload, headers)
+    res = conn.getresponse()
+    data = res.read()
+    data_decoded = data.decode('utf-8')
 
-  category_length = len(body[:needles[0]])
-  unit_from_length = len(body[needles[0] + 1:needles[1]])
-  unit_to_length = len(body[needles[1] + 1:needles[2]])
-  unit_amount_length = len(body[needles[2] + 1:])
+    logging.info(f"[SMS Service] [Sending SMS] Received response from POST 2mkvmw.api.infobip.com/sms/2/text/advanced: {data_decoded}")
+  except Exception as ex:
+    logging.error(f"[SMS Service] [Sending SMS] Exception occurred while SENDING a SMS messages: {ex}")
 
-  # Check if any of our parsed data is empty, if it is, return SMS with
-  # the helper message.
-  if (category_length == 0 or unit_from_length == 0 or
-          unit_to_length == 0 or unit_amount_length == 0):
-      resp.message("Bad format, use: category/unitFrom/unitTo/amount")
-      return str(resp)
+def incoming_sms():
+  from flask_routes import all_units
 
-  userCategory = str(body[:needles[0]])
-  unitFrom = str(body[needles[0] + 1:needles[1]])
-  unitTo = str(body[needles[1] + 1:needles[2]])
-  unitFromAmount = float(body[needles[2] + 1:])
+  sms_messages_decoded = get_incoming_sms_messages()
+  sms_messages_list = get_detailed_contents_from_incoming_sms(sms_messages_decoded)
+  for message in sms_messages_list:
+    sms_text = message.clean_text
+    to_number = message.from_number
 
-  # If user put a negative amount, inform him.
-  if unitFromAmount < 0:
-      resp.message("Amount should be a non-negative number!")
-      return str(resp)
+    try:
+      logging.info(f"[SMS Service] [Incoming SMS] Validating a message from {to_number} with text: {sms_text}")
+      is_incoming_sms_message_valid(sms_text)
+    except Exception as ex:
+      exception_msg = ex
+      logging.error(f"[SMS Service] [Incoming SMS] Exception occurred while validating SMS message: {exception_msg}")
+      send_sms_message(to_number, str(ex))
+      continue
 
-  # If user entered invalid userCategory, tell him.
-  if userCategory not in home.all_units:
-      resp.message("Unit category is invalid!")
-      return str(resp)
+    needles = sms_text.split('/')
+    unit_category = needles[0]
+    unit_from = needles[1]
+    unit_to = needles[2]
+    unit_amount = float(needles[3])
 
-  # Search for units.
-  pair = {"from_value": "", "to_value": ""}
-  for item in home.all_units[userCategory]["units"]:
-      if item["unit"] == unitFrom:
-          pair["from_value"] = float(eval(item["value"]))
-      if item["unit"] == unitTo:
-          pair["to_value"] = float(eval(item["value"]))
+    # Convert.
+    result = convert_unit(all_units, unit_category, unit_from, unit_to, unit_amount)
+    result = '{:,}'.format(result)
 
-  # If we didn't found user entered units, inform him.
-  if len(str(pair["from_value"])) == 0 or len(str(pair["to_value"])) == 0:
-      resp.message("Unit name(s) were not found!")
-      return str(resp)
-
-  # Convert.
-  result = float(pair["from_value"] * unitFromAmount / pair["to_value"])
-  # Format the number.
-  result = '{:,}'.format(result)
-
-  # Send SMS message with the conversion.
-  resp.message(str(result))
-  return str(resp)
+    send_sms_message(to_number, f"The result is: {result}")
