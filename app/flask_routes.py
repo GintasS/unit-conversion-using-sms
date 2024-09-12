@@ -1,40 +1,13 @@
 from app import flask_app
-from flask import jsonify
-import os
-
-from services.read_conversion_files import *
-from flask import render_template, request
+from flask import jsonify, render_template, request
 from services.convert_unit_service import *
+
+all_units = {}
 
 @flask_app.route('/home')
 def home():
   # Main data structre
-  home.all_units = {}
-
-  # Directories
-  root_directory = os.getcwd()
-  sub_directory = "\\app\\static\\txt files\\"
-
-  # Text files
-  main_file = root_directory + sub_directory + "units.txt"
-  sub_files = [
-      "time_units.txt",
-      "length_units.txt",
-      "mass_units.txt",
-      "electric_current_units.txt",
-      "temperature_units.txt",
-      "luminous_intensity_units.txt"
-  ]
-  currency_file = root_directory + sub_directory + "currencies.txt"
-  sub_files = [root_directory + sub_directory + item for item in sub_files]
-
-  # Read data & add it to the data structure.
-  initialize_main_unit_conversion_file(home.all_units, main_file)
-  initialize_sub_unit_conversion_files(home.all_units, sub_files)
-  initialize_all_currencies(home.all_units, currency_file)
-  
-  # Categories to initialize 1st dropdown.
-  categories = [key for key in home.all_units.keys()]
+  categories = [key for key in all_units.keys()]
 
   # Render the template(GUI).
   return render_template(
@@ -49,13 +22,13 @@ def index_update():
   try:
     user_category = str(request.args.get('userCategory', 0))
 
-    if user_category not in home.all_units:
+    if user_category not in all_units:
         return jsonify({"error": "Invalid category."}), 400
 
-    units = home.all_units[user_category]["units"]
+    units = all_units[user_category]["units"]
     return jsonify({"subUnits": units})
   except Exception as e:
-      return jsonify({"error": str(e)}), 500
+    return jsonify({"error": str(e)}), 500
 
 @flask_app.route("/convert")
 def convert():
@@ -71,9 +44,9 @@ def convert():
 
   # Perform conversion
   try:
-      result = convert_unit(home.all_units, unit_category, unit_from, unit_to, amount)
-      formatted_result = '{:,}'.format(result) + " " + unit_to
+    result = convert_unit(all_units, unit_category, unit_from, unit_to, amount)
+    formatted_result = '{:,}'.format(result) + " " + unit_to
 
-      return jsonify({"result": formatted_result})
+    return jsonify({"result": formatted_result})
   except Exception as e:
-      return jsonify({"error": str(e)}), 500
+    return jsonify({"error": str(e)}), 500
