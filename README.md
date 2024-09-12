@@ -108,10 +108,10 @@ in the .env file, replace these environment variables with your PostgreSQL datab
 
 ## Screenshots
 
-<img src="docs/images/capture1.jpg" alt="Screenshot 1" height="500"/><br>
+<img src="docs/images/capture1.JPG" alt="Screenshot 1" height="500"/><br>
 *This screenshot shows the main interface of the unit conversion web application.*
 
-<img src="docs/images/capture2.jpg" alt="Screenshot 2" height="500"/><br>
+<img src="docs/images/capture2.JPG" alt="Screenshot 2" height="500"/><br>
 *This screenshot demonstrates the result.*
 
 <img src="docs/images/capture3.jpg" alt="Screenshot 3" height="500"/><br>
