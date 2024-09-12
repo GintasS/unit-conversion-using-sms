@@ -68,7 +68,6 @@ Python version that was used to develop the project: **3.9.13**
 #### Manual setup
 
 Please follow these steps for manual setup:
-0. Set-up the Discord bot on the Discord Developer Portal and add it to your server.
 1. Download this GitHub repository.
 2. Create a virtual environment.
 
