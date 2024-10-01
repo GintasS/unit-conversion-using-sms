@@ -108,13 +108,13 @@ in the .env file, replace these environment variables with your PostgreSQL datab
 
 ## Screenshots
 
-<img src="docs/images/capture1.JPG" alt="Screenshot 1" height="500"/><br>
+<img src="docs/images/capture1.JPG" alt="Screenshot 1" height="400"/><br>
 *This screenshot shows the main interface of the unit conversion web application.*
 
-<img src="docs/images/capture2.JPG" alt="Screenshot 2" height="500"/><br>
+<img src="docs/images/capture2.JPG" alt="Screenshot 2" height="400"/><br>
 *This screenshot demonstrates the result.*
 
-<img src="docs/images/capture3.jpg" alt="Screenshot 3" height="500"/><br>
+<img src="docs/images/capture3.jpg" alt="Screenshot 3" height="400"/><br>
 *This screenshot demonstrates how SMS conversion work.*
 
 [![Setup and Run Tutorial](https://img.youtube.com/vi/nOnsj9aEL2U/sddefault.jpg)](https://youtu.be/nOnsj9aEL2U)<br>
